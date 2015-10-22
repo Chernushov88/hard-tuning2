@@ -444,20 +444,23 @@ header{
     margin-left: 50px;
     padding-left: 0px;
 }
-.sidebar-1 > ul > li > ul > li:before{
+.sidebar-1 > ul > li > ul > li > a:before{
     content: "";    
     width: 5px;
     height: 5px;
-    margin: 16px 6px 0 0;
+    margin: 6px 20px 10px 0;
     background: #fff;
     border-radius: 50%;
     float: left;
+}
+.sidebar-1 > ul > li > ul > li:hover a:before{
+    background: #0087d5;
 }
 /*.accordion-ibside  li:before a:hover{
     background: #0087d5;
 }*/
 .sidebar-1 > ul > li > ul > li > a{
-    padding-left: 25px;
+    padding-left: 0px;
     background: none !important;
 }
 .sidebar-1 .active, .accordion li > a:hover{
