@@ -3,7 +3,7 @@
 @import url(css/media.css);
 @import url(css/reset.css); 
  
-   
+
 /* ----------------------------Блок присоединения шрифтов--------------------------------*/
 
 @font-face {
@@ -61,6 +61,9 @@ body{
 }
 a{
     text-decoration: none;
+}
+.mobile-visible{
+    display: none;
 }
 /* ------------------------------  Start header ------------------------------ */
 header{
@@ -178,7 +181,7 @@ header{
     display: inline-block;
     width: 111px;
     height: 19px;
-    padding: 7px 36px 0 182px;
+    padding: 7px 34px 0 182px;
     text-align: right;
     text-decoration: none;    
     color: #891f74;
@@ -1132,6 +1135,9 @@ textarea{
     font-size: 18px;
     color: #102e45;
 }
+.button-more{
+    float: right;
+}
 a.subcate-more{
     display: inline-block;
     margin: 10px 0 0 0;
@@ -1141,7 +1147,7 @@ a.subcate-more{
     color: #165078;    
     border: 3px solid #165078;
     border-radius: 20px;
-    float: right;
+    float: right;    
 }
 /* stop subcategory*/
 /* start page-title-map*/
@@ -1369,7 +1375,6 @@ a.back-to:hover{
     margin: 0 auto;
 }
 .cd-text h4{
-    display: block;
     line-height: 23px;
     text-transform: uppercase;
     font-family: 'FiraSansMedium';
@@ -1381,7 +1386,6 @@ a.back-to:hover{
     float: left;
 }
 .art{
-    display: block;
     padding: 6px 0 12px 0;
     color: #102e45;
 }
@@ -1410,13 +1414,16 @@ form.cd-text-number{
     border: 2px solid #cbcbcb;
     border-radius: 20px;
 }
-.read-more{
-    margin: 20px 0 0 0;
-    padding: 9px 39px;
+.read-more{    
+    padding: 9px 32px;
     letter-spacing: 2px;
     color: #497417;
     border: 3px solid #497417;
     border-radius: 20px;   
+}
+.read-more:hover{
+    color: #fff;
+    background: #497417;
 }
 .cd-text-right{
     width: 175px;
@@ -1437,11 +1444,20 @@ form.cd-text-number{
     border: 3px solid #165078;
     border-radius: 20px;
 }
+.buy:hover{
+    color: #fff;
+    background: #165078;
+}
 .buy-kredit{
-    padding: 8px 20px 8px 23px;
+    margin: 20px 0 0 0;
+    padding: 8px 26px;
     color: #891f74;
     border: 3px solid #891f74;
     border-radius: 20px;
+}
+.buy-kredit:hover{
+    color: #fff;
+    background: #891f74;
 }
 a.buy-click{
     padding: 16px 0 0 14px;
@@ -1449,6 +1465,9 @@ a.buy-click{
     font-family: 'FiraSansRegular';
     font-size: 15.6px;
     color: #adabab;
+}
+a.buy-click:hover{
+    text-decoration: none;    
 }
 /* stop cd-text */
 /* start pager */
@@ -1477,7 +1496,7 @@ a.buy-click{
 /* stop pager */
 /* start catalog-news */
 .catalog-news{
-    padding: 18px 0 0 0;
+    padding: 16px 0 0 0;
     color: #000;
     border-top: 3px solid #ababab;
     float: left;
@@ -1489,10 +1508,12 @@ a.buy-click{
 }
 .catalog-news h3{
     display: inline-block;
+    padding: 5px 0 0 0;
     text-transform: uppercase;
     font-family: 'FiraSansBold';
     font-size: 24px;
     color: #891f74;
+    float: left;
 }
 .catalog-news h4{
     text-transform: uppercase;
@@ -1507,10 +1528,10 @@ a.buy-click{
 }
 .catalog-news-left .news-more{
     display: inline-block;
-    margin: 0 0px 16px 16px;
-    padding: 5px 22px;
+    margin: 0px 0px 18px 21px;
+    padding: 6px 26px;
     font-family: 'FiraSansBold';
-    font-size: 16px;
+    font-size: 14px;
     color: #165078;
     border: 3px solid #165078;
     border-radius: 20px;
@@ -1532,7 +1553,7 @@ a.buy-click{
     overflow: hidden;
 }
 .catalog-news-right h4{
-    padding: 4px 0 22px 0;
+    padding: 6px 0 22px 0;
 }
 .catalog-news-right p{
     padding: 0 0 20px 0;

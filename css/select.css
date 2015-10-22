@@ -5,21 +5,23 @@
 	border: 1px solid #cecece;
 	background-color: #F6F6f6;
 	color: #444;
-	background-position: 290px -145px;
-	
-
-	
+	background-position: 290px -145px;	
 }
 .slct.active {
 	border-bottom: none;
 }
 .drop {
+	z-index: 1000;
 	margin: 3px 0 0 10px;
     border: 1px solid #cecece;
     border-top: none;
     display: none;
-    /* position: absolute; */
+    position: absolute; 
     background: #fff;
+}
+.subcategory-inside .drop3{
+	width: 165px; 
+	display: none;
 }
 .drop li {
     border-top: 1px dotted #e8e8e8;
@@ -32,4 +34,27 @@
 	background-color: #e8e8e8;
 	color: #222;
 }
-      
+.drop1{
+	width: 207px;
+}
+.drop2{
+	width: 85px;
+}
+.select3{
+	position: relative;
+}
+.drop3{
+	top: 45px;
+    right: 0;
+    border: 1px solid #2574AB;
+}
+.select3 .drop3 li{
+	min-width: 140px;
+	padding: 5px 0 5px 0;
+    text-align: center;
+	border-top: 1px dotted #2574AB;
+	float: none;
+}
+.select3 .slct.active {
+    border: 3px solid #2574AB;
+}
