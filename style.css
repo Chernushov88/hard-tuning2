@@ -312,50 +312,17 @@ header{
 }
 .my-auto li{
     float: left;
-    padding: 0 0 0 25px;
-
+    padding: 0 0 14px 25px;
 }
-.my-auto li:first-child{
+/*.my-auto li:first-child{
     padding: 0;
-}
+}*/
 .my-auto a{
     display: block;
     width: 85px;
     height: 85px;
 }
-.my-auto li:first-child a{
-    background: url(images/content-top/auto/1.png) no-repeat;
-}
-.my-auto li:nth-child(2) a{
-    background: url(images/content-top/auto/2.png) no-repeat;
-}
-.my-auto li:nth-child(3) a{
-    background: url(images/content-top/auto/3.png) no-repeat;
-}
-.my-auto li:nth-child(4) a{
-    background: url(images/content-top/auto/4.png) no-repeat;
-}
-.my-auto li:nth-child(5) a{
-    background: url(images/content-top/auto/5.png) no-repeat;
-}
-.my-auto li:nth-child(6) a{
-    background: url(images/content-top/auto/6.png) no-repeat;
-}
-.my-auto li:nth-child(7) a{
-    background: url(images/content-top/auto/7.png) no-repeat;
-}
-.my-auto li:nth-child(8) a{
-    background: url(images/content-top/auto/8.png) no-repeat;
-}
-.my-auto li:nth-child(9) a{
-    background: url(images/content-top/auto/9.png) no-repeat;
-}
-.my-auto li:nth-child(10) a{
-    background: url(images/content-top/auto/1.png) no-repeat;
-}
-.my-auto li:nth-child(11) a{
-    background: url(images/content-top/auto/2.png) no-repeat;
-}
+
 /*--- .show-hide-a ---*/
 .show-hide-a{
     display: block;
@@ -1562,3 +1529,38 @@ a.buy-click:hover{
     padding: 0 0 20px 0;
 }
 /* stop catalog-news */
+/*-----------------------------------------------------------------------------------*/
+/* CATALOG-BRAND
+/*-----------------------------------------------------------------------------------*/
+.block-margin-catalog{
+    height: 29px;
+}
+
+.select-brand{
+    padding: 0 10px;
+    background: #fff;
+}
+.select-brand h2{
+    padding: 29px 0 47px 0;
+}
+.select-brand .my-auto li{
+    padding: 0 0 14px 23px;
+}
+.my-auto li.my-auto-li-fitst{
+    padding-left: 0;
+}
+.select-brand .my-auto a {
+    height: 118px;
+}
+.my-auto a span{
+    display: block;
+    padding: 8px 0 0 0;
+    text-decoration: none;    
+    text-align: center;
+    font-family: 'FiraSansMedium';
+    font-size: 16px;
+    color: #000;
+}
+.my-auto a:hover span{
+    text-decoration: underline;    
+}

@@ -19,8 +19,9 @@
 	.content-top .content-top-inside {width: 751px;}
 	.content-top .content-top-inside h2 {font-size: 26px;}
 	.content-top .content-top-inside h2 span {width: 150px;}
-	.content-top .my-auto li {padding: 0px 0px 14px 25px;}
-	.content-top .my-auto li:first-child {padding: 0px 0px 14px 25px;}
+	/*.content-top .my-auto li {padding: 0px 0px 14px 25px;}*/
+	/*.content-top .my-auto li:first-child {padding: 0px 0px 14px 25px;}*/
+	.content-top-inside ul.my-auto li {padding: 0 0 14px 25px;}
 	.content-top .content-sidebar {width: 202px;}
 	.content-top .content-sidebar h3 {font-size: 24px;}
 	.content-top .content-sidebar li {padding: 0px 0px 0 10px;}
@@ -85,7 +86,15 @@
 	a.buy {padding: 8px 45px 8px 30px;}
 	a.buy-kredit {font-size: 15px; padding: 8px 12px 8px 12px;}
 	div.cd-text-right {width: 174px;}
-
+/*-----------------------------------------------------------------------------------*/
+/* CATALOG-BRAND
+/*-----------------------------------------------------------------------------------*/
+.select-brand ul.my-auto li {
+    padding: 0 0 14px 15px;
+}
+.select-brand .my-auto li.my-auto-li-fitst{
+    padding-left: 15px;
+}
 
 
 
@@ -120,12 +129,12 @@
    /* header .header-inside-bottom h1 {font-size: 28px;}
     header .header-inside-bottom h4 span {display: none;}*/
     /*content-top*/
-    .content-top .my-auto li {padding: 0px 0px 14px 40px;}
-	.content-top .my-auto li:first-child {padding: 0px 0px 14px 40px;}
+    .content-top-inside ul.my-auto li {padding: 0px 0px 14px 40px;}
+	/*.content-top .my-auto li:first-child {padding: 0px 0px 14px 40px;}*/
 	.content-top .content-top-inside h2 {font-size: 26px;}
 	.content-top .content-top-inside h2 span {display: block !important; width: 95%;}
-	.content-top .content-sidebar {overflow: hidden; width: 100%; margin: 0 auto;}
-	.content-sidebar .sidebar-1, .content-sidebar .sidebar-2{width: 282px; height: 375px; margin: 10px auto;}
+	.content-top .content-sidebar {overflow: hidden; width: 100%; margin: 0 auto; float: none;}
+	.content-sidebar .sidebar-1, .content-sidebar .sidebar-2{width: 282px; margin: 10px auto;}
 	.content-top .sidebar-3 {width: 261px; margin: 0 auto; padding: 0 0 0 12px;}
 	.content-top .content-sidebar h3 {font-size: 24px;}
 	.content-top .content-sidebar li {padding: 0px 0px 0 10px;}
@@ -205,7 +214,7 @@
 	.subcategory-inside a.subcate-more {position: absolute; top: 155px; left: 34%;}
 	ul.drop3 {top: 203px; left: 26%; margin: 0;}
 
-	div.catalog-description {width: 95%; margin: 0 auto; float: none;}
+	div.catalog-description {width: 95%; margin: 0 auto; padding: 0; float: none;}
 	
 
 	h4.mobile-visible, span.mobile-visible {display: block; text-align: center;}
