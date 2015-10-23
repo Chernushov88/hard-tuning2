@@ -426,7 +426,7 @@ header{
 /*.accordion-ibside  li:before a:hover{
     background: #0087d5;
 }*/
-.sidebar-1 > ul > li > ul > li > a{
+.content-top .sidebar-1 > ul > li > ul > li > a{
     padding-left: 0px;
     background: none !important;
 }
@@ -1535,7 +1535,6 @@ a.buy-click:hover{
 .block-margin-catalog{
     height: 29px;
 }
-
 .select-brand{
     padding: 0 10px;
     background: #fff;
@@ -1563,4 +1562,47 @@ a.buy-click:hover{
 }
 .my-auto a:hover span{
     text-decoration: underline;    
+}
+/*-----------------------------------------------------------------------------------*/
+/* CATALOG-MODEL
+/*-----------------------------------------------------------------------------------*/
+.select-model{
+    background: #fff;
+}
+.select-model h2{
+    padding: 29px 0 26px 0;
+}
+.my-auto-model{
+    overflow: hidden;
+    min-height: 85px;     
+    font-size: 16px;
+}
+.my-auto-model li{
+    width: 25%;
+    padding: 0 0 14px 0;
+    float: left;
+}
+.my-auto-model li img{
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 0 8px;
+}
+.title-model{
+    display: block;
+    padding: 22px 0 12px 0;
+    text-align: center;   
+    font-family: 'FiraSansMedium';    
+    color: #102e45;
+}
+.my-auto-model a{
+    display: block;
+    padding: 11px 0 12px 56px;
+    background: url(images/content-top/auto/auot-a-bg.png) 21px 5px no-repeat;
+    color: #102e45;
+}
+.my-auto-model a:hover{
+    background: url(images/content-top/auto/auot-a-bg-hover.png) 21px 5px no-repeat;
+}
+.my-auto-model a span{
+    font-family: 'FiraSansMedium'; 
 }

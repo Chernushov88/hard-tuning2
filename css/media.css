@@ -95,6 +95,14 @@
 .select-brand .my-auto li.my-auto-li-fitst{
     padding-left: 15px;
 }
+/*-----------------------------------------------------------------------------------*/
+/*  CATALOG-MODEL
+/*-----------------------------------------------------------------------------------*/
+	ul.my-auto-model li img {width: 105px;}
+	.title-model {font-size: 14px;}
+	ul.my-auto-model a {padding: 11px 0 12px 8px; font-size: 13px; background: none;}
+	ul.my-auto-model a:hover {text-decoration: underline; background: none;}
+
 
 
 
@@ -221,9 +229,7 @@
 	div.block-img, div.cd-text-left, div.cd-text-right {margin: 0 auto 10px auto; float: none;}
 	
 	div.catalog-news {width: 95%; margin: 0 auto; float: none;}
-
-
-
+	.content-top .sidebar-1 > ul > li > ul > li {margin-left: 25px;}
 
 }
 @media (min-width:320px) and (max-width:560px){
@@ -340,6 +346,18 @@
 }
 @media (min-width:736px) and (max-width:767px){
  .content-top .content-top-inside .top-button{left: 8%;}
+}
+/*-----------------------------------------------------------------------------------*/
+/*  CATALOG-MODEL
+/*-----------------------------------------------------------------------------------*/
+@media (min-width:637px) and (max-width:710px) { 
+	ul.my-auto-model li {width: 33%; font-size: 15px;}
+}
+@media (min-width:426px) and (max-width:636px) { 
+	ul.my-auto-model li {width: 50%; font-size: 15px;}
+}
+@media (min-width:320px) and (max-width:425px) { 
+	ul.my-auto-model li {width: 100%; font-size: 18px;}
 }
 /*----------------------------------------------*/
 
