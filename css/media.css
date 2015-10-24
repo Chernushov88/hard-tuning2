@@ -32,7 +32,7 @@
 
 	.content-top .content-description {width: 539px;}
 /*	.content-top .filter {width: 768px;}*/
-	.content-top .filter a {padding: 0px 47px 12px 30px;}
+	.content-top .filter a {padding: 0px 7px 12px 16.5px;}
 	.content-top .ul-top li {width: 169px; height: 310px;}
  	.content-top .ul-top li img:first-child {padding: 0 33px 0 26px;}
  	.ul-top li img:nth-child(3) {width: 144px;}
@@ -102,6 +102,32 @@
 	.title-model {font-size: 14px;}
 	ul.my-auto-model a {padding: 11px 0 12px 8px; font-size: 13px; background: none;}
 	ul.my-auto-model a:hover {text-decoration: underline; background: none;}
+/*-----------------------------------------------------------------------------------*/
+/* CONTACTS
+/*-----------------------------------------------------------------------------------*/
+	div.contact-description-tabs {width: 488px; margin: 0 8px 0 0;}
+	ul.contact-filter li{width: 24.65%;}
+	ul.contact-div {font-size: 20px;}
+	ul.contact-div li {width: 37%;}
+	li.contact-adress {padding: 53px 0 0 67px; line-height: 25px; background: url(../images/content-top/contact-adress-bg.png) 31px 57px no-repeat;}
+	li.contact-phone {padding: 30px 0px 0 65px; line-height: 25px; background: url(images/content-top/contact-phone-bg.png) 30px 33px no-repeat;}
+
+	form.contact-form {width: 223px; height: 312px; padding: 0 16px 0 8px; font-size: 14px; border: 3px solid #891f74;}
+	form.contact-form h3 {letter-spacing: 0; font-size: 20px;}
+	form.contact-form input {width: 212px;}
+	form.contact-form textarea {width: 212px;}
+	form.contact-form input.button-contact {width: auto; padding: 7px 24px 6px 25px; font-size: 15px;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -230,6 +256,27 @@
 	
 	div.catalog-news {width: 95%; margin: 0 auto; float: none;}
 	.content-top .sidebar-1 > ul > li > ul > li {margin-left: 25px;}
+/*-----------------------------------------------------------------------------------*/
+/* CONTACTS
+/*-----------------------------------------------------------------------------------*/
+	div.contact-description-tabs {width: 97%; margin: 0 auto; float: none;}
+	ul.contact-filter li {width: 100%; margin: 0; float: none;}
+	ul.contact-filter a {width: 16%; height: 60px;}
+	ul.contact-filter li a.selected {border: 1px solid #aeaeae;}
+	ul.contact-div li {width: 37%; font-size: 20px;}
+	li.contact-adress {padding: 53px 0 0 67px; line-height: 25px; background: url(../images/content-top/contact-adress-bg.png) 31px 57px no-repeat;}
+	.contact-div li.contact-phone {width: 80%; padding: 30px 0px 0 65px; line-height: 25px; background: url(../images/content-top/contact-phone-bg.png) 30px 33px no-repeat;}
+
+	form.contact-form {margin: 20px auto; float: none;}
+
+
+
+
+
+
+
+
+
 
 }
 @media (min-width:320px) and (max-width:560px){
@@ -359,6 +406,23 @@
 @media (min-width:320px) and (max-width:425px) { 
 	ul.my-auto-model li {width: 100%; font-size: 18px;}
 }
+/*-----------------------------------------------------------------------------------*/
+/* CONTACTS
+/*-----------------------------------------------------------------------------------*/
+@media (min-width:320px) and (max-width:502px) {
+	div.contact-description-tabs ul.contact-div li {display: table; width: auto; margin: 0 auto; padding: 30px 0 10px 50px; float: none;}
+	ul.contact-div li.contact-adress {background: url(../images/content-top/contact-adress-bg.png) 8px 46px no-repeat;}
+	ul.contact-div .contact-email {background: url(../images/content-top/contact-email-bg.png) 11px 33px no-repeat;}
+	ul.contact-div li.contact-phone {background: url(../images/content-top/contact-phone-bg.png) 0px 35px no-repeat;}   
+}
+@media (min-width:320px) and (max-width:346px){
+	form.contact-form {width: 263px; height: 312px; padding: 0 16px 0 8px; font-size: 14px; border: 3px solid #891f74;}
+	form.contact-form h3 {letter-spacing: 0; font-size: 23px;}
+	form.contact-form input {width: 252px;}
+	form.contact-form textarea {width: 252px;}
+	form.contact-form input.button-contact {width: auto; padding: 7px 24px 6px 25px; font-size: 15px;}
+}
+
 /*----------------------------------------------*/
 
 
