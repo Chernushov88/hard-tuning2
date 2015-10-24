@@ -423,9 +423,6 @@ header{
 .sidebar-1 > ul > li > ul > li:hover a:before{
     background: #0087d5;
 }
-/*.accordion-ibside  li:before a:hover{
-    background: #0087d5;
-}*/
 .content-top .sidebar-1 > ul > li > ul > li > a{
     padding-left: 0px;
     background: none !important;
@@ -1688,10 +1685,127 @@ li.contact-phone{
     line-height: 30px;
     background: url(images/content-top/contact-phone-bg.png) 39px 32px no-repeat;
 }
+/*-----------------------------------------------------------------------------------*/
+/* NEWS
+/*-----------------------------------------------------------------------------------*/
+.news-description{    
+    padding: 15px 22px  0px 22px;
+    font-size: 16px;
+    color: #102e45;
+    background: #fff;
+}
+.news-description ul:first-child{
+    border: none;
+}
+.news-page{
+    overflow: hidden;   
+    padding: 10px 0 7px 0;
+    border-top: 1px solid #e5e5e5; 
+}
+.news-page li{
+    float: left;
+}
+.news-page li:last-child{
+    width: 73%;
+    padding: 0 0 0 10px;
+}
+.news-page h4{
+    text-transform: uppercase;    
+    font-family: 'FiraSansBold';    
+}
+.date{
+    display: block;    
+    padding: 2px 0 12px 0;
+    color: #a5a6a6;
+}
+.news-page p{
+    line-height: 20px;
+}
+.news-more{
+    display: inline-block;
+    margin: 45px 0 0 0;
+    text-decoration: underline;
+    /*font-family: 'FiraSansMedium';  */  
+    color: #102e45;
+}
+.news-more:hover{
+    text-decoration: none;    
+}
+.news-description .pager{
+    padding: 10px 0 0 0;
+}
+/*-----------------------------------------------------------------------------------*/
+/* PAGE
+/*-----------------------------------------------------------------------------------*/
+.page-list > ul > li > a:before{
+    content: "";    
+    width: 5px;
+    height: 5px;
+    margin: 6px 20px 10px 0;
+    background: #fff;
+    border-radius: 50%;
+    float: left;
+}
+.spage-list > ul > li:hover a:before{
+    background: #0087d5;
+}
+.page-list > ul > li > a{
+
+}
+.sidebar-1 .active, .accordion li > a:hover{
+    color: #0087d5;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/* BASKET
+/*-----------------------------------------------------------------------------------*/
+
+h2.basket-h2{
+    padding: 18px 0 5px 0;
+    text-align: left;    
+    font-size: 24px;
+    color: #1b537f;
+}
+.basket-description{
+    padding: 30px 20px;
+    background: #fff;
+    border: 1px solid #aeaeae;
+}
+.basket-description li{
+    width: 25%;
+    float: left;
+}
+.baske-user-title li span{    
+    display: block;
+    height: 20px;
+}
 
 
 

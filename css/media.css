@@ -117,8 +117,11 @@
 	form.contact-form input {width: 212px;}
 	form.contact-form textarea {width: 212px;}
 	form.contact-form input.button-contact {width: auto; padding: 7px 24px 6px 25px; font-size: 15px;}
-
-
+/*-----------------------------------------------------------------------------------*/
+/* NEWS
+/*-----------------------------------------------------------------------------------*/
+	ul.news-page li:last-child {width: 57%;}
+	a.news-more {margin: 15px 0 0 0;}
 
 
 
@@ -268,7 +271,15 @@
 	.contact-div li.contact-phone {width: 80%; padding: 30px 0px 0 65px; line-height: 25px; background: url(../images/content-top/contact-phone-bg.png) 30px 33px no-repeat;}
 
 	form.contact-form {margin: 20px auto; float: none;}
-
+/*-----------------------------------------------------------------------------------*/
+/* NEWS
+/*-----------------------------------------------------------------------------------*/
+	ul.news-page li {display: table; margin: 0 auto; float: none;}
+	ul.news-page li:last-child {width: 100%;}
+	a.news-more {margin: 15px 0 0 0;}
+	.news-page .desctop-visible {display: none;}
+	ul.news-page li:last-child {padding: none;}
+	.news-page h4, .date {text-align: center;}
 
 
 
