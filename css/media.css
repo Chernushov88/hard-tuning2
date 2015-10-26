@@ -122,8 +122,11 @@
 /*-----------------------------------------------------------------------------------*/
 	ul.news-page li:last-child {width: 57%;}
 	a.news-more {margin: 15px 0 0 0;}
-
-
+/*-----------------------------------------------------------------------------------*/
+/* PAGE
+/*-----------------------------------------------------------------------------------*/
+	.page-ul li img{width: 315px;}
+	div.pdp-left {width: 47%; padding: 0 0px 0 15px;}
 
 
 
@@ -275,11 +278,24 @@
 /* NEWS
 /*-----------------------------------------------------------------------------------*/
 	ul.news-page li {display: table; margin: 0 auto; float: none;}
-	ul.news-page li:last-child {width: 100%;}
+	ul.news-page li:last-child {width: 100%; padding: 0;}
 	a.news-more {margin: 15px 0 0 0;}
 	.news-page .desctop-visible {display: none;}
 	ul.news-page li:last-child {padding: none;}
 	.news-page h4, .date {text-align: center;}
+/*-----------------------------------------------------------------------------------*/
+/* PAGE
+/*-----------------------------------------------------------------------------------*/
+	div.page-description {padding: 15px 10px 0px 10px;}
+	.page-ul .desctop-visible {display: none;}
+	.page-ul .mobile-visible {display: block;}
+	.page-ul h4 {padding: 0 0 10px 0; text-align: center;}
+	.page-ul .page-ul-img{display: table; margin: 0 auto; float: none;}
+	ul.page-ul li:last-child {width: 100%;}
+	div.page-list ul {width: 50%;}
+	div.page-list form {display: table; padding: 35px 0 0 0; margin: 0 auto; float: none;}
+
+	div.pdp-left, div.pdp-right {width: 95%; margin: 0 auto; float: none;}
 
 
 
@@ -448,7 +464,12 @@
 
 
 
+@media (min-width:100px) and (max-width:319px) { 
+	
+
+}
 
 
 
+ 
  

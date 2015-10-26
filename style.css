@@ -719,7 +719,7 @@ div.tabContent.hide {
 .content-center-inside{
     overflow: hidden;
     max-width: 1187px;
-    min-height: 586px;
+   /* min-height: 586px;*/
     margin: 0 auto;
     padding: 8px 0 0 0;
     color: #707070;
@@ -1709,6 +1709,9 @@ li.contact-phone{
     width: 73%;
     padding: 0 0 0 10px;
 }
+.news-page img{
+    width: 291px;
+}
 .news-page h4{
     text-transform: uppercase;    
     font-family: 'FiraSansBold';    
@@ -1737,40 +1740,186 @@ li.contact-phone{
 /*-----------------------------------------------------------------------------------*/
 /* PAGE
 /*-----------------------------------------------------------------------------------*/
-.page-list > ul > li > a:before{
-    content: "";    
-    width: 5px;
-    height: 5px;
-    margin: 6px 20px 10px 0;
+.page-description{    
+    margin: 0 0 21px 0;
+    padding: 15px 22px  0px 22px;
+    font-size: 16px;
+    color: #102e45;
     background: #fff;
+}
+.page-ul{
+    overflow: hidden;   
+    padding: 10px 0 12px 0;
+    border-top: 1px solid #e5e5e5; 
+}
+.page-ul li{
+    float: left;
+}
+.page-ul li:last-child{
+    width: 54%;
+    padding: 0 0 0 10px;
+}
+.page-ul h4{
+    text-transform: uppercase;    
+    font-family: 'FiraSansBold';    
+}
+.page-description p{
+    padding: 10px 0;
+    line-height: 20px;
+}
+.page-description ul:first-child{
+    border: none;
+}
+.description-text{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.page-list{
+    overflow: hidden;  
+    padding: 0 0 22px 0;  
+}
+.page-list ul{
+    width: 26.5%;
+    float: left;
+}
+.page-list ul li{
+    display: block;    
+}
+.page-list > ul > li > a{
+    display: block;
+    padding: 13px 0 1px 0px;
+    font-size: 16px;
+    color: #102e45;
+}
+.page-list > ul:first-child > li > a:before{
+    content: "";
+    width: 8px;
+    height: 2px;
+    margin: 7px 10px 0px 3px;
+    background: #891f74;
+    float: left;
+}
+.page-list > ul:nth-child(2) > li > a:before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin: 4px 13px 0px 0;
+    background: #891f74;
     border-radius: 50%;
     float: left;
 }
-.spage-list > ul > li:hover a:before{
+.page-list > ul > li:hover a:before{
     background: #0087d5;
 }
-.page-list > ul > li > a{
-
-}
-.sidebar-1 .active, .accordion li > a:hover{
+.page-list > ul > li:hover a{
     color: #0087d5;
 }
+/*-----*/
+.page-list form{
+    padding: 95px 0 0 0;
+    float: right;    
+}
+.page-list input[type=text] {
+    width: 132px;
+    display: block;
+    margin: 0px 0px 7px 0px;
+    padding: 4px 17px;
+    font-size: 16px;
+    color: #0f1d2c;
+    border: 2px solid #cbcbcb;
+    border-radius: 20px;
+}
+.page-list input.button-contact{
+    margin: 5px 1px 11px 0;
+}
+/*-----*/
+.page-description-problems{
+    overflow: hidden;    
+}
+.page-description-problems p{
+    padding: 10px 0;    
+    line-height: 20px;
+    color: #102e45;
+}
+.pdp-left{
+    width: 48%;
+    float: left;
+}
+.pdp-right{
+    width: 50%;
+    float: right;
+}
+.pdp-right h2{
+    padding: 10px 0 0 0;
+    text-align: left;
+    font-size: 24px
+}
+/*-----------------------------------------------------------------------------------*/
+/* PRODUCT
+/*-----------------------------------------------------------------------------------*/
+.product-description{
+    background: #fff;
+}
+.product-top{
+    overflow: hidden;    
+}
+.post-gallery {
+    width: 405px;
+    padding: 5px 0 0 0;
+    float: left;
+}
+.product-top-right{
+    width: 65%;
+    float: right;    
+}
+.product-top-right h2{
+    font-size: 24px;
+}
+.ptr-top{
+    overflow: hidden;    
+}
+.ptr-top-left{
+    float: left;
+}
+.ptr-top-left span{
+    display: block;    
+}
+.ptr-raiting{
+    float: right;
+}
+.ptr-bottom-left{
+    overflow: hidden;
+    width: 500px;    
+    float: left;
+}
+.ptr-bottom-left .cd-price{
+    font-size: 24px
+}
+.ptr-bottom-left .cd-price span {
+    font-size: 13px;
+}
+.ptr-buy{
+    width: 180px;
+    float: right;    
+}
+.ptr-buy form.cd-text-number, .ptr-buy .buy, .ptr-buy .buy, .ptr-buy a.buy-click{
+    display: block;
+    text-align: right;
+}
+.ptr-buy .buy{
+    width: 40px;
+}
+.buy-delivery{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.buy-delivery a{
+    display: block;    
+}
+.ptr-bottom-right{
+    width: 200px;
+    float: right;
+    
+}
 
 
 
