@@ -250,21 +250,27 @@ header{
 #touch-menu-bottom {display: none;}
 /* --- header-inside-bottom ---*/
 .header-inside-bottom{
-    max-width: 1187px;
-    margin: 604px auto 0 auto;
-    padding: 0 0 60px 0;
+    max-width: 100%;
+    margin: 0px auto 0 auto;
     text-align: center;
     color: #fff;
     border: 0px solid #f9cdfd;
 }
 .header-inside-bottom h1{
+    position: absolute;
+    bottom: 14%;
+    left: 28.5%;
     max-width: 862px;
-    margin: 0 auto;
+    padding: 0 33px 0 0;
     font-family: 'FiraSansLight';
     font-size: 48px;
-    background: url(images/header/h1-bg.png) center right no-repeat;
+    letter-spacing: -2px;
+    background: url(images/header/h1-bg.png) right center no-repeat;
 }
 .header-inside-bottom h4{
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
     line-height: 36px;
     font-family: 'FiraSansRegular';
     font-size: 20px;
@@ -508,9 +514,9 @@ header{
     width: 862px;
     float: left;
 }
-ul.filter li a.selected { 
+ul.filter li a.tabulous_active{
     color: #497417;
-}   
+}
 div.tabContent.hide { 
     display: none; 
 }
@@ -532,7 +538,7 @@ div.tabContent.hide {
     text-decoration: none;
     font-family: 'FiraSansMedium';
     font-size: 16px;
-    color: #1b537f;    
+    color: #1b537f;        
 }
 .filter li:nth-child(2) a{
     background: url(images/content-top/filter/a2-bg.png) 122px 0px no-repeat;
@@ -1627,10 +1633,14 @@ a.buy-click:hover{
 }
 .contact-filter li{
     width: 24.8%;
-    margin: 0 2px 0 0;
+    margin: 0 0 0 2px;
     float: left;
 }
-.contact-filter li:last-child{
+.tabs__caption li.active a{
+    background: #fff;
+    color: #102e45;
+}
+.contact-filter li:first-child{
     margin: 0;
 }
 .contact-filter a{    
@@ -1647,9 +1657,12 @@ a.buy-click:hover{
     background: url(images/content-top/contact-filter-li-bg.png) 0px 0px ;
     color: #fff;    
 }
-ul.contact-filter li a.selected{
+ul.contact-filter li a.tabulous_active{
     background: #fff ;
     color: #102e45;
+}
+.tabContent{
+    width: 100%;
 }
 .contact-div{
     overflow: hidden;
@@ -1887,7 +1900,7 @@ li.contact-phone{
 .ptr-raiting{
     float: right;
 }
-.ptr-bottom-left{
+.ptr-bottom-left{    
     overflow: hidden;
     width: 500px;    
     float: left;

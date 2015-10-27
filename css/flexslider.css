@@ -1,4 +1,4 @@
-product
+
 /* ====================================================================================================================
  * RESETS
  * ====================================================================================================================*/
@@ -85,7 +85,7 @@ html[xmlns] .flexslider .slides {
 .loading .flex-viewport {
   max-height: 300px;
 }
-.carousel li {
+.carousel2 li {
   margin-right: 5px;
 }
 .flex-direction-nav {
@@ -114,11 +114,11 @@ html[xmlns] .flexslider .slides {
   content: '\f002';
 }
 .flex-direction-nav .flex-prev {
-  background: url(../images/product/flex-prev.png);
+  background: url(images/content/flex-prev.png);
   left: 10px;
 }
 .flex-direction-nav .flex-next {
-  background: url(../images/product/flex-next.png);
+  background: url(images/content/flex-next.png);
   right: 10px;
   text-align: right;
 }
@@ -233,7 +233,7 @@ html[xmlns] .flexslider .slides {
   cursor: default;
 }
 /*--------------*/
-#carousel .slides > li{
+#carousel2 .slides > li{
   margin: 0 5px;
   padding: 0 0 3px 0;
 }

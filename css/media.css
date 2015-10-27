@@ -1,6 +1,6 @@
 ﻿@media (min-width:768px) and (max-width:1206px){ 
 	/*header*/
-	header {background: url(../images/header/header-bg-tablet.jpg) center top no-repeat !important;}
+/*	header {background: url(../images/header/header-bg-tablet.jpg) center top no-repeat !important;}*/
 	header .header-inside-top {width: 751px; height: 124px;}
 	.header-inside-top .header-inside-left {width: 298px;}
 	.header-inside-top .header-inside-left input[type=text] {width: 238px;}
@@ -13,8 +13,9 @@
 	header .nav-top-inside li:first-child {margin: 0 0px 0 4px;}
 	header .nav-top-inside li:last-child {margin: 0 0 0 0px;}
 	header .nav-top-inside a {font-size: 16px;}
-	header .header-inside-bottom {margin-top: 337px; padding: 0 0 43px 0;}
-	header .header-inside-bottom h1 {max-width: 713px; font-size: 46px;}
+/*	header .header-inside-bottom {margin-top: 337px; padding: 0 0 43px 0;}*/
+	header .header-inside-bottom h1 {bottom: 20%; left: auto; max-width: 100%; width: 100%; padding: 0; font-size: 40px; background: none;}
+	header .header-inside-bottom h4 {}
 	/*content-top*/
 	.content-top .content-top-inside {width: 751px;}
 	.content-top .content-top-inside h2 {font-size: 26px;}
@@ -171,7 +172,7 @@
     /*content-top*/
     .content-top-inside ul.my-auto li {padding: 0px 0px 14px 40px;}
 	/*.content-top .my-auto li:first-child {padding: 0px 0px 14px 40px;}*/
-	.content-top .content-top-inside h2 {font-size: 26px;}
+	.content-top .content-top-inside h2 {padding: 18px 0 5px 10px; font-size: 26px;}
 	.content-top .content-top-inside h2 span {display: block !important; width: 95%;}
 	.content-top .content-sidebar {overflow: hidden; width: 100%; margin: 0 auto; float: none;}
 	.content-sidebar .sidebar-1, .content-sidebar .sidebar-2{width: 282px; margin: 10px auto;}
@@ -267,7 +268,7 @@
 /*-----------------------------------------------------------------------------------*/
 	div.contact-description-tabs {width: 97%; margin: 0 auto; float: none;}
 	ul.contact-filter li {width: 100%; margin: 0; float: none;}
-	ul.contact-filter a {width: 16%; height: 60px;}
+	ul.contact-filter a {width: 13%; height: 60px;}
 	ul.contact-filter li a.selected {border: 1px solid #aeaeae;}
 	ul.contact-div li {width: 37%; font-size: 20px;}
 	li.contact-adress {padding: 53px 0 0 67px; line-height: 25px; background: url(../images/content-top/contact-adress-bg.png) 31px 57px no-repeat;}
