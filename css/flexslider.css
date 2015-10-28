@@ -115,13 +115,14 @@ html[xmlns] .flexslider .slides {
   content: '\f002';
 }
 .flex-direction-nav .flex-prev {
-  background: url(images/content/flex-prev.png);
+  background: url(../images/content/flex-prev.png);
   left: 10px;
 }
 .flex-direction-nav .flex-next {
-  background: url(images/content/flex-next.png);
+  background: url(../images/content/flex-next.png);
   right: 10px;
   text-align: right;
+  color: #fff;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;

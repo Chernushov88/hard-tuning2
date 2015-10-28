@@ -128,8 +128,26 @@
 /*-----------------------------------------------------------------------------------*/
 	.page-ul li img{width: 315px;}
 	div.pdp-left {width: 47%; padding: 0 0px 0 15px;}
+/*-----------------------------------------------------------------------------------*/
+/* PRODUCT
+/*-----------------------------------------------------------------------------------*/
+	.content-top-inside div.product-description h2 {font-size: 24px;}
+	div.post-gallery {width: 282px;}
+	div.flexslider .slides img {width: 99%;}
+	div.product-top-right {width: 60%;}
+	div.ptr-bottom-left {width: 56%;}
+	ul.product-filter li.active:first-child > span {background: url(../images/product/tabl-tabs/1-active.png) 7px 0px no-repeat;}
+	ul.product-filter li.active:nth-child(2) > span {background: url(../images/product/tabl-tabs/2-active.png) 8px 0px no-repeat;}
+	ul.product-filter li.active:last-child > span {background: url(../images/product/tabl-tabs/3-active.png) 12px 0px no-repeat;}
+	ul.product-filter li:first-child > span {background: url(../images/product/tabl-tabs/1.png) 7px 0px no-repeat;}
+	ul.product-filter li:nth-child(2) > span {background: url(../images/product/tabl-tabs/2.png) 8px 0px no-repeat;}
+	ul.product-filter li:last-child > span {background: url(../images/product/tabl-tabs/3.png) 12px 0px no-repeat;}
 
-
+	ul.buy-item h3 span {width: 68%;}
+	ul.buy-item li {width: 135px;}
+	ul.buy-item img:first-child {width: 128px;}
+	ul.buy-item .brand {padding: 17px 0 0 7px; font-size: 15px;}
+	ul.buy-item .price {padding: 17px 0 17px 20px;}
 
 
 
@@ -297,8 +315,16 @@
 	div.page-list form {display: table; padding: 35px 0 0 0; margin: 0 auto; float: none;}
 
 	div.pdp-left, div.pdp-right {width: 95%; margin: 0 auto; float: none;}
+/*-----------------------------------------------------------------------------------*/
+/* PRODUCT
+/*-----------------------------------------------------------------------------------*/
+	h2.desctop-visible {display: none;}
+	h2.mobile-visible {display: block;}
+	div.post-gallery {margin: 0 auto;  float: none;}	
+	#carousel2 {display: none;}
+	div.product-top-right {width: 95%; margin: 0 auto; float: none;}
 
-
+    
 
 
 
