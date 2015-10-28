@@ -4,56 +4,12 @@
 @import url(css/reset.css); 
  
 
-/* ----------------------------Блок присоединения шрифтов--------------------------------*/
 
-@font-face {
-font-family: 'FiraSansLight';
-src: url('fonts/FiraSansLight/FiraSansLight.eot');
-src: url('fonts/FiraSansLight/FiraSansLight.eot?#iefix') format('embedded-opentype'),
- url('fonts/FiraSansLight/FiraSansLight.woff') format('woff'),
- url('fonts/FiraSansLight/FiraSansLight.ttf') format('truetype'),
- url('fonts/FiraSansLight/FiraSansLight.svg#fonts/FiraSansLight/FiraSansLight') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'FiraSansRegular';
-src: url('fonts/FiraSansRegular/FiraSansRegular.eot');
-src: url('fonts/FiraSansRegular/FiraSansRegular.eot?#iefix') format('embedded-opentype'),
- url('fonts/FiraSansRegular/FiraSansRegular.woff') format('woff'),
- url('fonts/FiraSansRegular/FiraSansRegular.ttf') format('truetype'),
- url('fonts/FiraSansRegular/FiraSansRegular.svg#fonts/FiraSansRegular/FiraSansRegular') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'FiraSansMedium';
-src: url('fonts/FiraSansMedium/FiraSansMedium.eot');
-src: url('fonts/FiraSansMedium/FiraSansMedium.eot?#iefix') format('embedded-opentype'),
- url('fonts/FiraSansMedium/FiraSansMedium.woff') format('woff'),
- url('fonts/FiraSansMedium/FiraSansMedium.ttf') format('truetype'),
- url('fonts/FiraSansMedium/FiraSansMedium.svg#fonts/FiraSansMedium/FiraSansMedium') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'FiraSansBold';
-src: url('fonts/FiraSansBold/FiraSansBold.eot');
-src: url('fonts/FiraSansBold/FiraSansBold.eot?#iefix') format('embedded-opentype'),
- url('fonts/FiraSansBold/FiraSansBold.woff') format('woff'),
- url('fonts/FiraSansBold/FiraSansBold.ttf') format('truetype'),
- url('fonts/FiraSansBold/FiraSansBold.svg#fonts/FiraSansBold/FiraSansBold') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-
-/* ------------------------------ Конец блока присоединения шрифтов ------------------------------*/
 /*-----------------------------------------------------------------------------------*/
 /*  TYPOGRAPHY
 /*-----------------------------------------------------------------------------------*/
 body{
-    font-family: 'FiraSansRegular';
+    font-family: 'Fira Sans', sans-serif;
     background: #fff;
 }
 .clear{
@@ -109,25 +65,25 @@ header{
 }
 .header-inside-left ::-webkit-input-placeholder { /* WebKit browsers */
     vertical-align:center;
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     font-size: 14px;
     color: #7b7b7b;
 }
 .header-inside-left :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     vertical-align:center;
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     font-size: 14px;
     color: #7b7b7b;
 }
 .header-inside-left ::-moz-placeholder { /* Mozilla Firefox 19+ */
     vertical-align:center;
-   font-family: 'FiraSansLight';
+   font-weight: 300;
    font-size: 14px;
     color: #7b7b7b;
 }
 .header-inside-left :-ms-input-placeholder { /* Internet Explorer 10+ */
     vertical-align:center;
-   font-family: 'FiraSansLight';
+   font-weight: 300;
    font-size: 14px;
     color: #7b7b7b;
 }
@@ -140,7 +96,7 @@ header{
     line-height: 24px;
     text-transform: uppercase;
     text-align: right;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 20px;
     color: #0f1d2c;
     float: right;
@@ -169,7 +125,7 @@ header{
     display: inline-block;
     padding: 0 0 2px 12px;
     text-decoration: underline;
-    font-family: 'FiraSansRegular';
+    font-weight: 400;
     font-size: 14px;
     color: #666666;
 }
@@ -201,12 +157,12 @@ header{
     text-decoration: underline;
 }
 .phone{
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     font-size: 25px;
     color: #0f1d2c;
 }
 .phone span{
-    font-family: 'FiraSansBold';
+    font-weight: 600;
 }
 /* --- nav-top ---*/
 .nav-top{
@@ -241,7 +197,7 @@ header{
     display: block;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'FiraSansRegular';
+    font-weight: 400;
     font-size: 18px;
     color: #fff;
 } 
@@ -262,7 +218,7 @@ header{
     left: 28.5%;
     max-width: 862px;
     padding: 0 33px 0 0;
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     font-size: 48px;
     letter-spacing: -2px;
     background: url(images/header/h1-bg.png) right center no-repeat;
@@ -272,7 +228,7 @@ header{
     bottom: 8%;
     width: 100%;
     line-height: 36px;
-    font-family: 'FiraSansRegular';
+    font-weight: 400;
     font-size: 20px;
 }
 .header-inside-bottom h4 span{
@@ -301,7 +257,7 @@ header{
     padding: 42px 0 30px 0;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 30px;
     color: #102e45;
 }
@@ -337,7 +293,7 @@ header{
     text-decoration: none;
     text-align: center;
     letter-spacing: .2px;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 20px;
     color: #6c6c6c;
     background: url(images/content-top/show-hide-a-bg.png) center 59px no-repeat;
@@ -359,7 +315,7 @@ header{
 .content-sidebar h3{
     text-transform: uppercase;
     letter-spacing: -0.6px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 40px;
     color: #d8d8d8;
 }
@@ -487,7 +443,7 @@ header{
     width: 279px;
     height: 234px;
     padding: 0 0 0 26px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     color: #fff;
     border: 5px solid #fff;    
 }
@@ -505,7 +461,7 @@ header{
 }
 .sidebar-3 h5{
     line-height: 21px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 18px;
 }
 /*--- c
@@ -536,7 +492,7 @@ div.tabContent.hide {
     padding: 0px 70px 12px 34px;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 16px;
     color: #1b537f;        
 }
@@ -581,7 +537,7 @@ div.tabContent.hide {
 }
 .new{
     text-transform: uppercase;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 16px;
     color: #0087d5;  
 }
@@ -593,7 +549,7 @@ div.tabContent.hide {
     padding: 14px 0 0 26px;
     text-decoration: none;
     line-height: 20px;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 16px;
     color: #891f74;  
     opacity: 0.95;
@@ -601,7 +557,7 @@ div.tabContent.hide {
 .price{
     display: block;
     padding: 18px 0 0 27px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 18px;
     color: #0f1d2c;  
 }
@@ -617,7 +573,7 @@ div.tabContent.hide {
     padding: 11px 73px 9px 18px;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 16px;
     color: #165078;
     background: #fff url(images/content-top/button-bg.png) 113px 11px no-repeat;
@@ -636,7 +592,7 @@ div.tabContent.hide {
 }
 .ul-bottom h4{
     text-transform: uppercase;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 16px;
 }
 .ul-bottom h4 span{
@@ -748,7 +704,7 @@ div.tabContent.hide {
 .content-center-inside p{
     padding: 10px 0 6px 0;
     line-height: 15px;
-    /*font-family: 'FiraSansLight';*/
+    /*font-weight: 300;*/
     font-size: 12px;
 }
 /*--- content-center-slider ---*/
@@ -806,7 +762,7 @@ div.tabContent.hide {
     display: block;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'FiraSansRegular';
+    font-weight: 400;
     font-size: 18px;
     color: #343434;
 }
@@ -840,7 +796,7 @@ div.tabContent.hide {
     display: inline-block;
     padding: 0 0 2px 18px;
     text-decoration: underline;
-    font-family: 'FiraSansRegular';
+    font-weight: 400;
     font-size: 14px;
     color: #666666;
 }
@@ -854,12 +810,12 @@ div.tabContent.hide {
     border-bottom: 3px solid #891f74;
 }
 .phone{
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     font-size: 18px;
     color: #0f1d2c;
 }
 .phone span{
-    font-family: 'FiraSansBold';
+    font-weight: 600;
 }
 .payment{
     padding: 79px 0 0 0;
@@ -868,7 +824,7 @@ div.tabContent.hide {
     padding: 0 0 28px 2px;
     text-transform: uppercase;
     letter-spacing: -1px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
 }
 .payment a{
     display: block;
@@ -889,7 +845,7 @@ div.tabContent.hide {
     padding: 0 0 17px 0;
     text-transform: uppercase;
     letter-spacing: -0.6px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
 }
 .content-bottom-right li{
     padding: 0 0px 0 0px;
@@ -930,7 +886,7 @@ footer{
     border: 0px solid #000c2f;
 }
 .footer-active{
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     color: #165078;
 }  
 .viewed, .comparison, .online-consultant, .basket{
@@ -1015,7 +971,7 @@ footer{
 }
 .b-popup h3 {
     text-align:center;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size:20px;
     color:#000;
     text-transform:uppercase;
@@ -1053,7 +1009,7 @@ textarea{
     height: 46px;
     padding: 0;
     cursor: pointer;
-    font-family: 'FiraSansRegular';
+    font-weight: 400;
     font-size: 22px;
     color: #fff;
     border: none;
@@ -1115,7 +1071,7 @@ a.subcate-more{
     display: inline-block;
     margin: 10px 0 0 0;
     padding: 8px 32px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 16px;
     color: #165078;    
     border: 3px solid #165078;
@@ -1169,25 +1125,25 @@ a.subcate-more{
 }
 .catalog-form ::-webkit-input-placeholder { /* WebKit browsers */
     vertical-align:center;
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     font-size: 14px;
     color: #7b7b7b;
 }
 .catalog-form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     vertical-align:center;
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     font-size: 14px;
     color: #7b7b7b;
 }
 .catalog-form ::-moz-placeholder { /* Mozilla Firefox 19+ */
     vertical-align:center;
-   font-family: 'FiraSansLight';
+   font-weight: 300;
    font-size: 14px;
     color: #7b7b7b;
 }
 .catalog-form :-ms-input-placeholder { /* Internet Explorer 10+ */
     vertical-align:center;
-   font-family: 'FiraSansLight';
+   font-weight: 300;
    font-size: 14px;
     color: #7b7b7b;
 }
@@ -1206,7 +1162,7 @@ a.subcate-more{
 .your-car h3{
     padding: 20px 0 8px 22px;
     letter-spacing: 0.1px;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 16px;
     color: #102e45; 
 }
@@ -1226,7 +1182,7 @@ a.subcate-more{
     padding: 16px 0 0 0px;
     text-align: center;
     line-height: 20px;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     color: #102e45; 
 }
 .brand-pover span{
@@ -1237,7 +1193,7 @@ a.back-to{
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     color: #027cc3;
 }
 a.back-to:hover{
@@ -1324,7 +1280,7 @@ a.back-to:hover{
 }
 .cd-text a{
     display: inline-block;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
 }
 .block-img{
     width: 192px;
@@ -1340,7 +1296,7 @@ a.back-to:hover{
     text-transform: uppercase;
     text-decoration: underline;
     text-align: right;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     color: #0087d5;
 }
 .block-img img{
@@ -1350,7 +1306,7 @@ a.back-to:hover{
 .cd-text h4{
     line-height: 23px;
     text-transform: uppercase;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 18px;
     color: #102e45;
 }
@@ -1365,7 +1321,7 @@ a.back-to:hover{
 .cd-price{
     display: inline-block;
     padding: 10px 10px 0 0;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 18px;
     color: #0f1d2c;
     float: left;
@@ -1435,7 +1391,7 @@ form.cd-text-number{
 a.buy-click{
     padding: 16px 0 0 14px;
     text-decoration: underline;
-    font-family: 'FiraSansRegular';
+    font-weight: 400;
     font-size: 15.6px;
     color: #adabab;
 }
@@ -1483,7 +1439,7 @@ a.buy-click:hover{
     display: inline-block;
     padding: 5px 0 0 0;
     text-transform: uppercase;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 24px;
     color: #891f74;
     float: left;
@@ -1491,7 +1447,7 @@ a.buy-click:hover{
 .catalog-news h4{
     text-transform: uppercase;
     letter-spacing: 0.2px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 16px;
     color: #000;
 }
@@ -1503,7 +1459,7 @@ a.buy-click:hover{
     display: inline-block;
     margin: 0px 0px 18px 21px;
     padding: 6px 26px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     font-size: 14px;
     color: #165078;
     border: 3px solid #165078;
@@ -1559,7 +1515,7 @@ a.buy-click:hover{
     padding: 8px 0 0 0;
     text-decoration: none;    
     text-align: center;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 16px;
     color: #000;
 }
@@ -1594,7 +1550,7 @@ a.buy-click:hover{
     display: block;
     padding: 22px 0 12px 0;
     text-align: center;   
-    font-family: 'FiraSansMedium';    
+    font-weight: 500;    
     color: #102e45;
 }
 .my-auto-model a{
@@ -1607,7 +1563,7 @@ a.buy-click:hover{
     background: url(images/content-top/auto/auot-a-bg-hover.png) 21px 5px no-repeat;
 }
 .my-auto-model a span{
-    font-family: 'FiraSansMedium'; 
+    font-weight: 500; 
 }
 /*-----------------------------------------------------------------------------------*/
 /* CONTACTS
@@ -1632,34 +1588,29 @@ a.buy-click:hover{
     width: 100%;
 }
 .contact-filter li{
-    width: 24.8%;
     margin: 0 0 0 2px;
-    float: left;
+    background: url(images/content-top/contact-filter-li-bg.png) 0px 0px ;
 }
-.tabs__caption li.active a{
+.tabs__caption li.active {
     background: #fff;
     color: #102e45;
 }
 .contact-filter li:first-child{
     margin: 0;
 }
-.contact-filter a{    
+.contact-filter li{    
     display: table-cell;
-    width: 25%;
+    width: 20%;
     height: 68px;
     vertical-align: middle;
     padding: 0;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    font-family: 'FiraSansMedium';
+    font-weight: 500;
     font-size: 16px;
-    background: url(images/content-top/contact-filter-li-bg.png) 0px 0px ;
+    
     color: #fff;    
-}
-ul.contact-filter li a.tabulous_active{
-    background: #fff ;
-    color: #102e45;
 }
 .tabContent{
     width: 100%;
@@ -1674,11 +1625,11 @@ ul.contact-filter li a.tabulous_active{
 .contact-div li{
     display: inline-block;
     width: 39%;
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     float: left;
 }
 .contact-div li span{
-    font-family: 'FiraSansBold';
+    font-weight: 600;
 }
 .contact-adress{
     padding: 53px 0 0 87px;
@@ -1727,7 +1678,7 @@ li.contact-phone{
 }
 .news-page h4{
     text-transform: uppercase;    
-    font-family: 'FiraSansBold';    
+    font-weight: 600;    
 }
 .date{
     display: block;    
@@ -1741,7 +1692,7 @@ li.contact-phone{
     display: inline-block;
     margin: 45px 0 0 0;
     text-decoration: underline;
-    /*font-family: 'FiraSansMedium';  */  
+    /*font-weight: 500;  */  
     color: #102e45;
 }
 .news-more:hover{
@@ -1774,7 +1725,7 @@ li.contact-phone{
 }
 .page-ul h4{
     text-transform: uppercase;    
-    font-family: 'FiraSansBold';    
+    font-weight: 600;    
 }
 .page-description p{
     padding: 10px 0;
@@ -1871,38 +1822,59 @@ li.contact-phone{
 /* PRODUCT
 /*-----------------------------------------------------------------------------------*/
 .product-description{
+    margin: -4px 0 0 0;
     background: #fff;
 }
 .product-top{
-    overflow: hidden;    
+    overflow: hidden; 
+    padding: 16px 13px 0 13px;   
 }
 .post-gallery {
-    width: 405px;
-    padding: 5px 0 0 0;
+    width: 406px;
     float: left;
 }
 .product-top-right{
-    width: 65%;
+    width: 64.5%;
     float: right;    
 }
 .product-top-right h2{
+    padding: 3px 0 3px 0;
+    text-align: left;
     font-size: 24px;
 }
 .ptr-top{
-    overflow: hidden;    
+    overflow: hidden; 
+    padding: 0 0 20px 0; 
+    border-bottom: 1px solid #e5e5e5;  
 }
 .ptr-top-left{
     float: left;
 }
 .ptr-top-left span{
-    display: block;    
+    display: block;      
+}
+.available{
+    text-transform: uppercase;    
+    font-weight: 500;
+    color: #497417;  
 }
 .ptr-raiting{
+    padding: 4px 1px 0 0;
+    line-height: 22px;
     float: right;
+}
+.ptr-raiting a{
+    display: block;
+    text-decoration: underline;            
+    color: #0087d5;        
+}
+.ptr-raiting a:hover{
+    text-decoration: none;            
 }
 .ptr-bottom-left{    
     overflow: hidden;
-    width: 500px;    
+    width: 72%;    
+    padding: 23px 0 0 0;
     float: left;
 }
 .ptr-bottom-left .cd-price{
@@ -1912,33 +1884,83 @@ li.contact-phone{
     font-size: 13px;
 }
 .ptr-buy{
-    width: 180px;
+    width: 173px;
     float: right;    
 }
-.ptr-buy form.cd-text-number, .ptr-buy .buy, .ptr-buy .buy, .ptr-buy a.buy-click{
+.ptr-buy form.cd-text-number, .ptr-buy .buy, .ptr-buy .buy, .ptr-buy a.buy-click, .ptr-buy .buy-kredit{
     display: block;
     text-align: right;
 }
+.ptr-buy form.cd-text-number input[type=text] {
+    padding: 4px 43px;
+}
 .ptr-buy .buy{
-    width: 40px;
+    margin: 12px 0 0 0;
+    padding: 8px 68px 8px 30px
+}
+.ptr-buy .buy-kredit{
+    margin: 12px 0 1px 0;
+    padding: 8px 22px;
+}
+.ptr-buy a.buy-click{
+    padding: 16px 13px 0 0px;
 }
 .buy-delivery{
-
+    margin: 83px 0 0 0;
+    line-height: 42px;
+    border-top: 1px solid #e5e5e5;
 }
 .buy-delivery a{
-    display: block;    
+    display: block;  
+    width: 208px;
+    text-decoration: underline;
+    color: #0087d5;  
+    background: url(images/product/buy-delivery-a-bg.png) center right no-repeat;
+}
+.buy-delivery a:hover{
+    text-decoration: none;
 }
 .ptr-bottom-right{
-    width: 200px;
-    float: right;
-    
+    width: 174px;
+    padding: 37px 0 0 0;
+    float: right;    
 }
-
-
-
-
-
-
+.ptr-bottom-right h4{
+    padding: 0 0 0 0;
+    font-weight: 600;
+}
+.ptr-bottom-right form.cd-text-number input[type=text] {    
+    width: 87%;
+    margin: 22px 0 17px 0;
+    padding: 4px 4px 4px 14px;
+}
+.ptr-bottom-right  ::-webkit-input-placeholder {font-size: 14px;}
+.ptr-bottom-right  :-moz-placeholder {font-size: 14px;}
+.ptr-bottom-right  ::-moz-placeholder {font-size: 14px;}
+.ptr-bottom-right  :-ms-input-placeholder {font-size: 14px;}
+.ptr-bottom-right p{
+    padding: 1px 0 15px 0;
+    line-height: 17px;
+    font-size: 14px;
+}
+.ptr-bottom-right > p > span{
+    display: block;
+    font-weight: 600;
+}
+.want-discount{    
+    display: block;
+    margin: 5px 3px 0 -4px;
+    padding: 8px 0px 8px 24px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #497417;
+    border: 3px solid #497417;
+    border-radius: 20px;   
+}
+.want-discount:hover{
+    color: #fff;
+    background: #497417;
+}
 
 
 
@@ -1987,12 +2009,12 @@ h2.basket-h2{
 .contact-form h3{
     padding: 23px 0 19px 0;
     letter-spacing: 0.3px;
-    font-family: 'FiraSansLight';
+    font-weight: 300;
     font-size: 25px;
     color: #0f1d2c;
 }
 .contact-form h3 span{
-    font-family: 'FiraSansBold';
+    font-weight: 600;
 }
 .contact-form input{
     width: 275px;
@@ -2017,7 +2039,7 @@ input.button-contact{
     height: auto;
     margin: 20px -10px 11px 0;
     padding: 8px 41px 7px 38px;
-    font-family: 'FiraSansBold';
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 16px;
     color: #165078; 

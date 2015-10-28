@@ -6,12 +6,13 @@
 		<meta name="description" content="" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700,300' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="favicon.ico" />
 		<link rel="stylesheet" href="style.css">	
 		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
 		<link rel="stylesheet" type="text/css" href="css/select.css" />
-				  <!-- FlexSlider -->
-		  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<!-- FlexSlider -->
+	  	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
 			<script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js" data-text="Ваш браузер застарел, обновите свой браузер"></script>
@@ -98,7 +99,7 @@
 						        <div id="carousel2" class="flexslider">
 						          <ul class="slides">
 						            <li>
-						              <img src="images/product/1.jpg" />
+						              <img src="images/product/1-smol.jpg" />
 						            </li>
 						            <li>
 						              <img src="images/product/2.jpg" />
@@ -147,8 +148,8 @@
 									<form action="" class="cd-text-number">
 						        		<input type="text" placeholder="Ваш телефон">
 						        	</form>
-						        	<p>Укажите свой номер телефона и мы сделаем Вам персональное предложение, от которого будет невозможно отказаться!</p> <p>закажите по телефону прямо сейчас:</p> <p>8 (495) 900 34 35</p>
-						        	<a href="">Хочу скидку</a>
+						        	<p>Укажите свой номер телефона и мы сделаем Вам персональное предложение, от которого будет невозможно отказаться!</p> <p>или закажите по телефону прямо сейчас: <span>8 (495) 900 34 35 </span></p>
+						        	<a href="" class="want-discount">Хочу скидку</a>
 								</div>
 
 
@@ -344,7 +345,7 @@
 	   	var liMini;
 		var w = $(window).width();
 		if ( w > 1204) {
-			liMini = 128;
+			liMini = 125;
 		    } 
 		    else if (w < 1204) {
 		       liMini = 61;

@@ -1,0 +1,9 @@
+.tabs__caption a {
+	position: relative;
+}
+.tabs__content {
+	display: none;
+}
+.tabs__content.active {
+	display: block;
+}
