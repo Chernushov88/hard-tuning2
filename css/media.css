@@ -9,7 +9,7 @@
 	.header-inside-top .header-inside-right .remember {padding: 7px 36px 0 0px;}
 	div.header-inside-right ul {padding: 12px 10px 0 0;}
 	header .nav-top-inside {width: 751px; height: 54px;}
-	header .nav-top-inside li {margin: 0px; padding: 10px;}
+	header .nav-top-inside li {margin: 0px; padding: 7px;}
 	header .nav-top-inside li:first-child {margin: 0 0px 0 4px;}
 	header .nav-top-inside li:last-child {margin: 0 0 0 0px;}
 	header .nav-top-inside a {font-size: 16px;}
@@ -18,13 +18,13 @@
 	header .header-inside-bottom h4 {}
 	/*content-top*/
 	.content-top .content-top-inside {width: 751px;}
-	.content-top .content-top-inside h2 {font-size: 26px;}
+	.content-top .content-top-inside h2 {font-size: 25px;}
 	.content-top .content-top-inside h2 span {width: 150px;}
 	/*.content-top .my-auto li {padding: 0px 0px 14px 25px;}*/
 	/*.content-top .my-auto li:first-child {padding: 0px 0px 14px 25px;}*/
 	.content-top-inside ul.my-auto li {padding: 0 0 14px 25px;}
 	.content-top .content-sidebar {width: 202px;}
-	.content-top .content-sidebar h3 {font-size: 24px;}
+	.content-top .content-sidebar h3 {font-size: 22px;}
 	.content-top .content-sidebar li {padding: 0px 0px 0 10px;}
 	.content-top .content-sidebar a {padding: 8px 0 10px 40px; font-size: 14px;}
 	.content-top .sidebar-1 h3{padding: 17px 0 6px 102px;}
@@ -33,7 +33,7 @@
 
 	.content-top .content-description {width: 539px;}
 /*	.content-top .filter {width: 768px;}*/
-	.content-top .filter a {padding: 0px 7px 12px 16.5px;}
+	.content-top .filter a {padding: 0px 7px 12px 16.5px; font-size: 15px;}
 	.content-top .ul-top li {width: 169px; height: 310px;}
  	.content-top .ul-top li img:first-child {padding: 0 33px 0 26px;}
  	.ul-top li img:nth-child(3) {width: 144px;}
@@ -52,14 +52,14 @@
 	.content-center .content-center-inside .banner:nth-child(2) {padding: 0 25px;}
 	/*content-bottom*/	
 	.content-bottom .nav-bottom-inside {width: 751px; height: 54px;}
-	.content-bottom .nav-bottom-inside li {margin: 0px; padding: 10px;}
+	.content-bottom .nav-bottom-inside li {margin: 0px; padding: 7px;}
 	.content-bottom .nav-bottom-inside li:first-child {margin: 0 0px 0 4px;}
 	.content-bottom .nav-bottom-inside li:last-child {margin: 0 0 0 0px;}
 	.content-bottom .nav-bottom-inside a {font-size: 16px;}
 	section.content-bottom-inside {width: 751px; padding: 45px 0 70px 0;}
 	.content-bottom  .content-bottom-inside .logo {margin: 9px 0 0 60px;}
 	.content-bottom .content-bottom-left {width: 530px;}
-	.content-bottom-left ul {width: 144px; float: left;}
+	.content-bottom-left ul {width: 146px; float: left;}
 	.content-bottom .payment {padding: 9px 0 0 49px; float: left;}
 
 	/*footer-inside*/
@@ -114,7 +114,7 @@
 	li.contact-phone {padding: 30px 0px 0 65px; line-height: 25px; background: url(images/content-top/contact-phone-bg.png) 30px 33px no-repeat;}
 
 	form.contact-form {width: 223px; height: 312px; padding: 0 16px 0 8px; font-size: 14px; border: 3px solid #891f74;}
-	form.contact-form h3 {letter-spacing: 0; font-size: 20px;}
+	form.contact-form h3 {letter-spacing: 0; font-size: 19px;}
 	form.contact-form input {width: 212px;}
 	form.contact-form textarea {width: 212px;}
 	form.contact-form input.button-contact {width: auto; padding: 7px 24px 6px 25px; font-size: 15px;}
@@ -360,7 +360,7 @@
 @media (min-width:660px) and (max-width:767px){
 	.cd-text div.block-img {float: left;}
 }
-@media (min-width:569px) and (max-width:758px){
+@media (min-width:579px) and (max-width:758px){
 	.content-bottom .content-bottom-left {width: auto;}
 	.content-bottom-left ul {float: left;}
 	.content-bottom-left .payment {padding: 0px 10px 20px 10px; float: right;}
@@ -377,7 +377,7 @@
 @media (min-width:447px) and (max-width:624px){
 	.content-top .ul-top li {width: 31%; height: 260px;}
 }
-@media (min-width:625px) and (max-width:768px){
+@media (min-width:625px) and (max-width:767px){
 	.content-top .ul-top li {width: 23%; }
 }
 @media (min-width:320px) and (max-width:668px){
