@@ -1240,7 +1240,7 @@ a.back-to:hover{
     color: #0f1d2c;
     float: left;
 }
-.filter-catalog .select{
+.filter-catalog .select, .filter-catalog .select2{
     display: inline-block;
 }
 .filter-catalog a{   
@@ -1334,10 +1334,11 @@ form.cd-text-number{
     display: inline-block;
 }
 .cd-text-number input[type=text]{
-    width: 10px;
     display: inline-block;
+    width: 72px;
+    text-align: center;
     margin: 5px 0px 0 15px;
-    padding: 4px 31px;
+    padding: 4px 0px 4px 0px;
     font-size: 16px;
     color: #0f1d2c;
     border: 2px solid #cbcbcb;
@@ -2199,28 +2200,259 @@ input.button-contact:hover{
     padding: 17px 0 17px 26px;
     font-size: 20px;
 }
-
-
 /*-----------------------------------------------------------------------------------*/
 /* BASKET
 /*-----------------------------------------------------------------------------------*/
-
 h2.basket-h2{
-    padding: 18px 0 5px 0;
+    padding: 18px 0;
     text-align: left;    
     font-size: 24px;
     color: #1b537f;
 }
 .basket-description{
-    padding: 30px 20px;
+    padding: 22px 20px;
     background: #fff;
-    border: 1px solid #aeaeae;
 }
-.basket-description li{
+/* baske-user-title */
+.baske-user-title{
+    overflow: hidden;
+    border-bottom: 3px solid #ababab;
+}
+.baske-user-title li{
     width: 25%;
     float: left;
 }
 .baske-user-title li span{    
+    display: block;    
+    padding: 0 0 17px 0;
+    font-weight: 500;
+}
+.curt-block > li:last-child{
+    border-bottom: 3px solid #ababab;
+}
+.curt{
+    overflow: hidden;    
+    padding: 9px 0 5px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.curt li{
+    width: 25%;
+    float: left;
+}
+.curt li img{
+    border: 1px solid #e5e5e5;
+}
+.curt li h4{
+    padding: 5px 10px 18px 0;
+    line-height: 18px;
+    text-transform: uppercase;    
+    font-weight: 500;
+    color: #891f74;
+}
+.curt li .cd-text-number input[type=text] {
+    margin: 0;
+}
+.curt li .cd-price{
+    font-size: 16px;
+}
+.delete{
     display: block;
-    height: 20px;
+    width: 23px;
+    height: 23px;
+    background: url(images/carent/delete-bg.png);
+    float: right;    
+}
+.delete:hover{
+    opacity: 0.7;
+}
+/* baske-cupon */
+.baske-cupon{
+    overflow: hidden;
+    padding: 0 0 23px 0;
+    border-bottom: 3px solid #ababab;
+}
+.baske-cupon-left{
+    width: 45%;
+    float: left;
+}
+.bcl-inside{
+    width: 60%;
+    float: left;
+}
+.bcl-inside h4{
+    padding: 23px 0 17px 0;
+    font-weight: 500;
+}
+.bcl-inside span{
+    display: block;   
+    line-height: 16px; 
+    font-size: 14px;
+    color: #ababab;
+}
+.bcl-inside a{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #8f2b7b;
+}
+.bcl-inside a:hover{
+    text-decoration: none;
+}
+.baske-cupon-left form{
+    float: right;
+} 
+.baske-cupon-left .cd-text-number input[type=text] {
+    width: 130px;
+    display: inline-block;
+    margin: 18px 0px 0 0px;
+    padding: 4px 0px 4px 15px;
+}
+.baske-cupon-right{
+    width: 45%;
+    float: right;
+}
+.baske-cupon-right table{
+    width: 100%;
+}
+.baske-cupon-right table tr td{    
+    display: table-cell;
+    height: 37px;
+    vertical-align: bottom;
+}
+.baske-cupon-right table tr td:first-child {
+    width: 41%;
+    font-weight: 500;
+}
+.baske-cupon-right table tr td:last-child, .baske-cupon-right table tr td .cd-price {
+
+    font-size: 24px;
+}
+.baske-cupon-right table tr td .cd-price span{
+    font-size: 
+}
+/* baske-customer */
+.baske-customer h3{
+    padding: 26px 0 22px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #891f74;
+}
+.baske-customer-form{
+    overflow: hidden;    
+}
+.input-left, .input-right{
+    width: 45%;
+}
+.input-left input, .input-right input{
+    width: 95.5%;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 18px;
+    font-size: 14px;
+    border: 2px solid #cbcbcb;
+    border-radius: 20px;
+}
+.input-left{
+    float: left;
+}
+.input-right{
+    float: right;
+}
+.input-right a {
+    display: block;
+    margin: 0 0 11px 0;
+    padding: 5px 0 5px 16px;
+    border: 2px solid #cbcbcb;
+    border-radius: 20px;
+    background: #fff;
+    color: #102e45;
+}
+.input-right a:after {
+    content: "";
+    width: 11px;
+    height: 7px;
+    margin: 5px 17px 0 0;
+    background: #ccc;
+    background: url(images/catalog-inside/filter-a-bg.png);
+    float: right;
+}
+.input-right a.active:after {
+    background: url(images/catalog-inside/filter-a-active-bg.png);
+}
+/* payment */
+.payment-method{
+    overflow: hidden;
+    padding: 0 0 29px 0;
+    border-bottom: 3px solid #ababab;    
+}
+.payment-method h3{
+    padding: 17px 0 18px 0;
+}
+.payment-method > div{
+    width: 33%;
+    float: left;
+}
+.payment-method > div:last-child{
+    width: 15%;
+    float: right;
+}
+.payment-method input[type=radio] {
+    width: 16px;
+    height: 16px;
+    background: url(images/carent/input-radio-bg.png) no-repeat;
+}
+.payment-method input[checked=checked]{
+    background: url(images/carent/input-radio-bg-checked.png) no-repeat;
+}
+.payment-method label{
+    font-size: 14px;
+    color: #102e45;
+}
+.label-1{
+    padding: 0 100px 0 0;
+    background: url(images/carent/1.png) right center no-repeat;
+}
+.label-2{
+    padding: 10px 0 10px 44px;
+    background: url(images/carent/2.png) 4px 0px no-repeat;
+}
+.label-3{
+    padding: 5px 0 10px 46px;
+    background: url(images/carent/3.png) 5px 0px no-repeat;
+}
+/* checkout */
+.checkout{
+    overflow: hidden;
+    padding: 26px 0 0 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+.checkout a{
+    display: block;
+    width: 177px;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    color: #891f74;
+    border: 3px solid #891f74;
+    border-radius: 20px;
+    float: left;
+}
+.checkout a:hover{
+    background: #891f74;
+    color: #fff;
+}
+.checkout input[type=submit]{ 
+    display: block;
+    width: 197px;
+    margin: 0 2px 11px 0;
+    padding: 10px 0;
+    background: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #165078;
+    border: 3px solid #165078;
+    border-radius: 20px;
+    float: right;
+}
+.checkout input:hover{
+    background: #165078;
+    color: #fff;
 }

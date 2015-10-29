@@ -70,6 +70,7 @@
 /*-----------------------------------------------------------------------------------*/
 	div.subcategory-inside {width: 750px;}
 	div.subcategory-inside li {padding: 20px 25px 0 0;}
+	.subcategory-inside .drop3 li {padding: 5px 11px 5px 15px;}
 
 	.content-top .content-sidebar .your-car h3 {font-size: 18px;}
 	.content-sidebar .your-car h3 span {width: 158px; margin: 0 0 10px 0;}     
@@ -149,8 +150,19 @@
 	ul.buy-item img:first-child {width: 128px;}
 	ul.buy-item .brand {padding: 17px 0 0 7px; font-size: 15px;}
 	ul.buy-item .price {padding: 17px 0 17px 20px;}
-	
-	
+/*-----------------------------------------------------------------------------------*/
+/* BASKET
+/*-----------------------------------------------------------------------------------*/
+	ul.curt li {width: 20%;}
+	ul.curt li:first-child {width: 30%;}
+	ul.curt li:nth-child(2) {width: 30%;}
+	div.baske-cupon-left {width: 53%;}
+	div.baske-cupon-right table tr td:first-child {width: 61%;}
+	ul.drop4, ul.drop5{width: 295px;}
+	div.input-left input, div.input-right input {width: 93%;}
+	div.payment-method > div:last-child {width: 20%;}
+
+
     
 
 
@@ -275,6 +287,7 @@
 	div.subcategory-inside {position: relative; width: 100%;  padding: 0 0 65px 0;}
     .subcategory-inside ul {overflow: hidden; display: table; margin: 0 auto; list-style: none;}
     .subcategory-inside ul li {padding: 20px 0px 0 0; float: none;}
+    .subcategory-inside .drop3 li {padding: 5px 11px 5px 15px;}
 	div.select3 {position: static;}
 	.subcategory-inside a.subcate-more {position: absolute; top: 155px; left: 34%;}
 	ul.drop3 {top: 203px; left: 26%; margin: 0;}
@@ -355,8 +368,32 @@
 	ul.buy-item h3 span {display: none;}
 	ul.buy-item li:last-child {display: none;}
 	ul.buy-item li {margin: 26px 0 0 10px; border: none !important;}
-
+/*-----------------------------------------------------------------------------------*/
+/* BASKET
+/*-----------------------------------------------------------------------------------*/
+	div.basket-description {padding: 22px 5px;}
+	.baske-user-title {display: none;}
+	ul.curt {width: 298px; margin: 0 auto;}
+	ul.curt li {width: 100%; padding: 0 0 5px 0; float: none;}
+	.curt li img {width: 300px;}
 	
+	div.baske-cupon-left {width: 40%;}
+	div.baske-cupon-left form {float: left;}
+
+	.bcl-inside h4 {font-size: 14px;}
+	div.bcl-inside span {font-size: 12px;}
+	div.bcl-inside a {font-size: 12px;}
+	div.baske-cupon-right {width: 60%; font-size: 13px;}
+	div.baske-cupon-right table tr td:last-child, div.baske-cupon-right table tr td .cd-price {font-size: 18px;}
+	div.baske-cupon-right table tr td:first-child {width: 44%;}
+	
+	.payment-method {width: 318px; margin: 0 auto;}
+	div.payment-method > div , div.payment-method > div:last-child {width: 100%; padding: 0 0 12px 0px; float: none;}
+
+
+
+
+
 
 
     
@@ -372,7 +409,8 @@
 
 @media (min-width:320px) and (max-width:560px){
 	div.content-bottom .content-bottom-inside {padding: 5px 0 71px 0;}
-	div.fc-left, div.fc-right {display: table; width: 317px; margin: 0 auto; float: none;}
+	div.fc-left, div.fc-right {display: table; width: 318px; margin: 0 auto; float: none;}
+	div.fc-left a:after {margin: 5px 0 0 87px;}
 	div.fc-right {padding: 5px 0 0 0;}
 	.fc-right .select {padding: 0 0 0 7px;}
 }
@@ -523,28 +561,47 @@
 	div.ptr-buy {width: 146px; font-size: 14px;}
 	.ptr-buy a.buy-click {font-size: 14px;}
 	div.ptr-buy .buy-kredit {padding: 8px 16px;}
-	
-
 }
 @media (min-width:320px) and (max-width:620px){
 	div.product-description-tabs table tr td:first-child {width: 50%;}
 }
-
 @media (min-width:320px) and (max-width:483px){	
 	.content-top-inside ul.buy-item {  width: 100%;}
 	ul.buy-item li {width: 45%;}
 	.buy-item img:first-child {width: 70%;}
 	ul.buy-item .brand {padding: 10px 0 0 11px; line-height: 18px; font-size: 14px;}
-
-
-
-
-
 }
-
-
-
-
+/*-----------------------------------------------------------------------------------*/
+/* BASKET
+/*-----------------------------------------------------------------------------------*/
+@media (min-width:320px) and (max-width:390px){
+	div.input-left input, div.input-right input {width: 83.5%;}
+}
+@media (min-width:391px) and (max-width:460px){
+	div.input-left input, div.input-right input {width: 87%;}
+}
+@media (min-width:461px) and (max-width:530px){
+	div.input-left input, div.input-right input {width: 88.5%;}
+}
+@media (min-width:531px) and (max-width:690px){
+	div.input-left input, div.input-right input {width: 91%;}
+}
+@media (min-width:691px) and (max-width:767px){
+	div.input-left input, div.input-right input {width: 93%;}
+}
+@media (min-width:320px) and (max-width:410px){
+	div.checkout a {width: 110px}
+	div.checkout input[type=submit] {width: 158px;}
+}
+@media (min-width:320px) and (max-width:409px){
+	ul.drop4, ul.drop5 {width: 36%;}
+}
+@media (min-width:410px) and (max-width:509px){
+	ul.drop4, ul.drop5 {width: 39%;}
+}
+@media (min-width:510px) and (max-width:767px){
+	ul.drop4, ul.drop5 {width: 41%;}
+}
 /*----------------------------------------------*/
 
 
