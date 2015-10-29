@@ -122,7 +122,7 @@ html[xmlns] .flexslider .slides {
   background: url(../images/content/flex-next.png);
   right: 10px;
   text-align: right;
-  color: #fff;
+  color: rgba(1,1,1, 0);
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
