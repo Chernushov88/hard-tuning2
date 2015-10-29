@@ -495,7 +495,7 @@
 	ul.my-auto-model li {width: 50%; font-size: 15px;}
 }
 @media (min-width:320px) and (max-width:425px) { 
-	ul.my-auto-model li {width: 100%; font-size: 18px;}
+	ul.my-auto-model li {width: 100%; font-size: 18px;} 
 }
 /*-----------------------------------------------------------------------------------*/
 /* CONTACTS
