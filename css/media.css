@@ -9,7 +9,7 @@
 	.header-inside-top .header-inside-right .remember {padding: 7px 36px 0 0px;}
 	div.header-inside-right ul {padding: 12px 10px 0 0;}
 	header .nav-top-inside {width: 751px; height: 54px;}
-	header .nav-top-inside li {margin: 0px; padding: 7px;}
+	header .nav-top-inside li {margin: 0px; padding: 7px 6px;}
 	header .nav-top-inside li:first-child {margin: 0 0px 0 4px;}
 	header .nav-top-inside li:last-child {margin: 0 0 0 0px;}
 	header .nav-top-inside a {font-size: 16px;}
@@ -19,12 +19,12 @@
 	/*content-top*/
 	.content-top .content-top-inside {width: 751px;}
 	.content-top .content-top-inside h2 {font-size: 25px;}
-	.content-top .content-top-inside h2 span {width: 150px;}
+	.content-top .content-top-inside h2 span {width: 148px;}
 	/*.content-top .my-auto li {padding: 0px 0px 14px 25px;}*/
 	/*.content-top .my-auto li:first-child {padding: 0px 0px 14px 25px;}*/
 	.content-top-inside ul.my-auto li {padding: 0 0 14px 25px;}
 	.content-top .content-sidebar {width: 202px;}
-	.content-top .content-sidebar h3 {font-size: 22px;}
+	.content-top .content-sidebar h3 {font-size: 21px;}
 	.content-top .content-sidebar li {padding: 0px 0px 0 10px;}
 	.content-top .content-sidebar a {padding: 8px 0 10px 40px; font-size: 14px;}
 	.content-top .sidebar-1 h3{padding: 17px 0 6px 102px;}
@@ -52,7 +52,7 @@
 	.content-center .content-center-inside .banner:nth-child(2) {padding: 0 25px;}
 	/*content-bottom*/	
 	.content-bottom .nav-bottom-inside {width: 751px; height: 54px;}
-	.content-bottom .nav-bottom-inside li {margin: 0px; padding: 7px;}
+	.content-bottom .nav-bottom-inside li {margin: 0px; padding: 7px 6px;}
 	.content-bottom .nav-bottom-inside li:first-child {margin: 0 0px 0 4px;}
 	.content-bottom .nav-bottom-inside li:last-child {margin: 0 0 0 0px;}
 	.content-bottom .nav-bottom-inside a {font-size: 16px;}
@@ -132,7 +132,7 @@
 /*-----------------------------------------------------------------------------------*/
 /* PRODUCT
 /*-----------------------------------------------------------------------------------*/
-	.content-top-inside div.product-description h2 {font-size: 24px;}
+	.content-top-inside div.product-description h2 {font-size: 23px;}
 	div.post-gallery {width: 282px;}
 	div.flexslider .slides img {width: 99%;}
 	div.product-top-right {width: 60%;}
@@ -392,6 +392,8 @@
 	div.payment-method > div:nth-child(2) {padding: 0 0 30px 0;}
 	div.payment-method .span-2 {padding: 3px 0 10px 44px;}
 
+	.page-title-map {padding: 0 0 0 10px;}
+
 
 
 
@@ -562,6 +564,7 @@
 	div.ptr-buy {width: 146px; font-size: 14px;}
 	.ptr-buy a.buy-click {font-size: 14px;}
 	div.ptr-buy .buy-kredit {padding: 8px 16px;}
+	div.ptr-buy form.cd-text-number input[type=text] {width: 50px;}
 }
 @media (min-width:320px) and (max-width:620px){
 	div.product-description-tabs table tr td:first-child {width: 50%;}

@@ -45,9 +45,11 @@ header{
     position: relative;    
 }
 .header-inside-left input[type=text]{
+    overflow: hidden;
     width: 270px;
     height: 25px;
     padding: 0 34px 0 17px;   
+    white-space: nowrap;
     vertical-align:center; 
     font-size: 14px;
     border-radius: 15px;
@@ -55,12 +57,13 @@ header{
 }
 .header-inside-left input[type=submit]{
     position: absolute;
-    top: 7px;
-    right: 12px;
-    width: 16px;
-    height: 16px;
+    top: 2px;
+    right: 4px;
+    width: 33px;
+    height: 25px;
     cursor: pointer;
-    background: url(images/header/submit-bg.png);
+    background: #fff url(images/header/submit-bg.png) 7px 5px no-repeat;
+    border-radius: 43%;
     border: none;
 }
 .header-inside-left ::-webkit-input-placeholder { /* WebKit browsers */
@@ -91,7 +94,7 @@ header{
     -webkit-appearance: textfield; // ещё можно указать none
 }
 .header-inside-left h3{
-    width: 207px;
+    width: 210px;
     padding: 22px 48px 0 0;    
     line-height: 24px;
     text-transform: uppercase;
@@ -178,7 +181,7 @@ header{
     border: 0px solid #fd652f;
 }
 .nav-top-inside li{
-    margin: 0 22.5px;
+    margin: 0 21.5px;
     padding: 14px;
     border: 2px solid rgba(0,0,0,0);
     float: left;
@@ -489,7 +492,7 @@ div.tabContent.hide {
 }
 .filter a{
     display: table-cell;
-    padding: 0px 65px 12px 34px;
+    padding: 0px 64px 12px 30px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -743,7 +746,7 @@ div.tabContent.hide {
     border: 0px solid #fd652f;
 }
 .nav-bottom-inside li{
-    margin: 0 22.5px;
+    margin: 0 21.5px;
     padding: 14px;
     border: 2px solid rgba(0,0,0,0);
     float: left;
@@ -1667,7 +1670,7 @@ li.contact-phone{
     padding: 23px 0 19px 0;
     letter-spacing: 0px;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 24px;
     color: #0f1d2c;
 }
 .contact-form h3 span{
@@ -1953,6 +1956,7 @@ input.button-contact:hover{
     text-align: right;
 }
 .ptr-buy form.cd-text-number input[type=text] {
+    margin: 5px 0 0 0;
     padding: 4px 43px;
 }
 .ptr-buy .buy{
