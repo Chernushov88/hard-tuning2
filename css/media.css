@@ -389,7 +389,8 @@
 	
 	.payment-method {width: 318px; margin: 0 auto;}
 	div.payment-method > div , div.payment-method > div:last-child {width: 100%; padding: 0 0 12px 0px; float: none;}
-
+	div.payment-method > div:nth-child(2) {padding: 0 0 30px 0;}
+	div.payment-method .span-2 {padding: 3px 0 10px 44px;}
 
 
 
