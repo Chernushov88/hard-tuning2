@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 
 @import url(css/media.css);
-@import url(css/reset.css); 
+@import url(css/reset.css);  
   
 
 
@@ -94,7 +94,7 @@ header{
     -webkit-appearance: textfield; // ещё можно указать none
 }
 .header-inside-left h3{
-    width: 210px;
+    width: 80%;
     padding: 22px 48px 0 0;    
     line-height: 24px;
     text-transform: uppercase;
@@ -468,8 +468,8 @@ header{
     font-size: 18px;
 }
 /*--- c
-/*--- content-description ---*/
-.content-description{
+/*--- tab-container ---*/
+.tab-container{
     width: 862px;
     float: left;
 }
@@ -481,23 +481,27 @@ div.tabContent.hide {
 }
 .filter{
     overflow: hidden;
+    display: flex;
     width: 100%;
     height: 32px;
     padding: 0 0 0 10px;
 }
 .filter li{
+    display: block;
     height: 29px;
     border-bottom: 3px solid #ababab;
     float: left;
 }
 .filter a{
-    display: table-cell;
+    display: inline-block;
+    height: 32px;
     padding: 0px 64px 12px 30px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    color: #1b537f;        
+    color: #1b537f;  
+    float: left;      
 }
 .filter li:nth-child(2) a{
     background: url(images/content-top/filter/a2-bg.png) 122px 0px no-repeat;
@@ -509,7 +513,7 @@ div.tabContent.hide {
     background: url(images/content-top/filter/a4-bg.png) 210px 0px no-repeat;
 }
 .filter li span{
-    display: table-cell;
+    display: inline-block;
     width: 3px;
     height: 32px;
     background: #ababab;
@@ -523,7 +527,7 @@ div.tabContent.hide {
 .ul-top{
     overflow: hidden;
 }
-.ul-top li{
+.ul-top > ul > li{
     position: relative;
     width: 205px;
     height: 329px;
@@ -533,7 +537,7 @@ div.tabContent.hide {
     float: left;
 }
 .ul-top li img:first-child {
-    padding: 0 50px 0 26px;
+    padding: 0 50px 0 10px;
 }
 .ul-top li img:nth-child(3){
     padding: 13px 0 0 13px
@@ -591,6 +595,7 @@ div.tabContent.hide {
 /*--- ul-bottom ---*/
 .ul-bottom{
     overflow: hidden;
+    width: 99%;
     padding: 55px 0 0 10px;
 }
 .ul-bottom h4{
@@ -615,7 +620,7 @@ div.tabContent.hide {
     color: #891f74;
 }
 .ul-bottom-left h4 span{
-    width: 110px;
+    width: 102px;
 }
 .ul-bottom-left-content{
     width: 202px;
@@ -630,6 +635,7 @@ div.tabContent.hide {
     padding: 14px 0 0 25px;
 }
 .ul-bottom-right{
+    width: 644px;
     float: left;
 }
 .ul-bottom-right-top h4{
@@ -644,10 +650,10 @@ div.tabContent.hide {
     margin: 6px 0px 4px 19px;
 }
 .ul-bottom-right-top h4 span{
-    width: 448px;
+    width: 429px;
 }
 .ul-bottom-right-bottom h4 span{
-    width: 507px;
+    width: 490px;
 }
 .ul-bottom-right ul{
     overflow: hidden;
@@ -2420,15 +2426,6 @@ h2.basket-h2{
     background: url(images/carent/3.png) 5px 0px no-repeat;
 }
 
-
-
-
-
-
-
-
-
-
 /* Cначала обозначаем стили для IE8 и более старых версий
 т.е. здесь мы немного облагораживаем стандартный чекбокс. */
 .radio {
@@ -2512,22 +2509,6 @@ h2.basket-h2{
     border: 2px solid #cdcdcd;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* checkout */
 .checkout{
